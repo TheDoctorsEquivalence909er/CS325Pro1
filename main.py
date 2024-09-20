@@ -1,3 +1,15 @@
+# -----------------------------------------------------------------------------
+# Project: CS325 Project 1 
+# Author: Francesco henrichs
+# Email: jane.doe@example.com
+# License: Apache License 2.0
+# Created: September 2024
+# -----------------------------------------------------------------------------
+# Description:
+# Takes in a text file respones to it with A.I and puts that respones in text file
+# It takes user input, processes the data, and outputs the result.
+# -----------------------------------------------------------------------------
+
 import ollama
 
 # function for asking the AI

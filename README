@@ -1,3 +1,8 @@
+# Author: Francesco henrichs
+# Email: jane.doe@example.com
+# License: Apache License 2.0
+# Created: September 2024
+
 # CS325 project 1
 
 - USe ollama and phi3 to take in a text input file and use the chat A.I to give respones back in output text file 
