@@ -15,7 +15,7 @@ import ollama
 # function for asking the AI
 def askAI(question):
     # preText to give better respones 
-    preText = "Give concise answers to following questions and add \n if line goes over 80 charters long"
+    preText = "Give concise awnser and don't go over 10 words line for the following questions"
     # Asking ollama and Specifying parameters
     stream = ollama.chat(
         model='phi3',
