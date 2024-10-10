@@ -12,3 +12,15 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/TheDoctorsEquivalence909er/CS325Pro1.git
+   ```
+
+   copy/surch/Follow following URL:https://ollama.com/
+      - DownLoad Ollama 
+   
+   ```comand line
+   ollama run phi3
+   cd dirctory 
+   conda activate base
+   pip install ollama
+   python main.py
+   ```
