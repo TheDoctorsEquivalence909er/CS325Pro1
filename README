@@ -4,8 +4,10 @@
 # Created: September 2024
 
 # CS325 project 1
-
-- USe ollama and phi3 to take in a text input file and use the chat A.I to give respones back in output text file 
+- Use ollama and phi3 to take in a text input file. The use the chat A.I to give respones back in output text file 
+   - Ollama is commad line to for running AI model 
+   - pip install ollama allows ollama to be run in python
+   - Phi3 is the AI model being used
 
 ## Installation
 
@@ -14,13 +16,20 @@
    git clone https://github.com/TheDoctorsEquivalence909er/CS325Pro1.git
    ```
 
-   copy/surch/Follow following https://ollama.com/
-      - Click Download Ollama and donwload it [Click me to download Ollama!!!](https://ollama.com/download)
+   # download Ollama to have it on your computer to run
+   copy/search/Follow following https://ollama.com/
+      - Click Download Ollama and download it [Click me to download Ollama!!!](https://ollama.com/download)
    
-   ```comand line
-   ollama run phi3
-   cd dirctory 
+   
+   ```command line
+   #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"Install phi3 model and runs it if you do not hve it "
+   ollama run phi3 
+   #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"Go into where you installed the file to have resours installed where your project is"
+   cd <your_project_directory>
+   #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"Activates conda so you keep your pages contained and separated"
    conda activate base
+   #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"pip install ollama allows ollama thus phi3 to work in python"
    pip install ollama
+   <Text. DO NOT RUN>"Runs the programe to generate the output"
    python main.py
    ```
