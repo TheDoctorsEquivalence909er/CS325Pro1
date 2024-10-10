@@ -30,6 +30,6 @@
    conda activate base
    #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"pip install ollama allows ollama thus phi3 to work in python"
    pip install ollama
-   <Text. DO NOT RUN>"Runs the programe to generate the output"
+   #<Commit. DO NOT RUN THIS LINE!!! Run the next line>"Runs the programe to generate the output"
    python main.py
    ```
